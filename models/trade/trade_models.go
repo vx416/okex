@@ -39,21 +39,21 @@ type (
 		Category    string              `json:"category"`
 		FeeCcy      string              `json:"feeCcy"`
 		RebateCcy   string              `json:"rebateCcy"`
-		Px          okex.JSONFloat64    `json:"px"`
-		Sz          okex.JSONFloat64    `json:"sz"`
-		Pnl         okex.JSONFloat64    `json:"pnl"`
-		AccFillSz   okex.JSONFloat64    `json:"accFillSz"`
-		FillPx      okex.JSONFloat64    `json:"fillPx"`
-		FillSz      okex.JSONFloat64    `json:"fillSz"`
-		FillTime    okex.JSONFloat64    `json:"fillTime"`
-		AvgPx       okex.JSONFloat64    `json:"avgPx"`
-		Lever       okex.JSONFloat64    `json:"lever"`
-		TpTriggerPx okex.JSONFloat64    `json:"tpTriggerPx"`
-		TpOrdPx     okex.JSONFloat64    `json:"tpOrdPx"`
-		SlTriggerPx okex.JSONFloat64    `json:"slTriggerPx"`
-		SlOrdPx     okex.JSONFloat64    `json:"slOrdPx"`
-		Fee         okex.JSONFloat64    `json:"fee"`
-		Rebate      okex.JSONFloat64    `json:"rebate"`
+		Px          string              `json:"px"`
+		Sz          string              `json:"sz"`
+		Pnl         string              `json:"pnl"`
+		AccFillSz   string              `json:"accFillSz"`
+		FillPx      string              `json:"fillPx"`
+		FillSz      string              `json:"fillSz"`
+		FillTime    string              `json:"fillTime"`
+		AvgPx       string              `json:"avgPx"`
+		Lever       string              `json:"lever"`
+		TpTriggerPx string              `json:"tpTriggerPx"`
+		TpOrdPx     string              `json:"tpOrdPx"`
+		SlTriggerPx string              `json:"slTriggerPx"`
+		SlOrdPx     string              `json:"slOrdPx"`
+		Fee         string              `json:"fee"`
+		Rebate      string              `json:"rebate"`
 		State       okex.OrderState     `json:"state"`
 		TdMode      okex.TradeMode      `json:"tdMode"`
 		PosSide     okex.PositionSide   `json:"posSide"`
