@@ -1,7 +1,7 @@
 package subaccount
 
 import (
-	"github.com/amir-the-h/okex"
+	"github.com/vx416/okex"
 )
 
 type (

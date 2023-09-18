@@ -1,9 +1,9 @@
 package private
 
 import (
-	"github.com/amir-the-h/okex/events"
-	"github.com/amir-the-h/okex/models/account"
-	"github.com/amir-the-h/okex/models/trade"
+	"github.com/vx416/okex/events"
+	"github.com/vx416/okex/models/account"
+	"github.com/vx416/okex/models/trade"
 )
 
 type (
